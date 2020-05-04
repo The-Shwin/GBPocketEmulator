@@ -28,7 +28,7 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -56,8 +56,8 @@
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -183,6 +183,13 @@
 <text x="12" y="39" size="1.016" layer="25">UP</text>
 <text x="49" y="28" size="1.016" layer="25">B</text>
 <text x="63" y="33" size="1.016" layer="25">A</text>
+<circle x="61.36" y="9.01" radius="9.539946875" width="0.1524" layer="49"/>
+<text x="57.01" y="7.99" size="1.778" layer="49">Speaker</text>
+<text x="59.84" y="94.58" size="1.778" layer="48" rot="R270">Pi Zero Header</text>
+<text x="8.89" y="94.78" size="1.778" layer="48" rot="R270">Display Header</text>
+<text x="4.25" y="49.97" size="1.778" layer="48">Directional Pad</text>
+<text x="51.04" y="46.53" size="1.778" layer="48">A and B</text>
+<text x="31.13" y="20.53" size="1.778" layer="48">Sel/Start</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
