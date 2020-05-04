@@ -24,7 +24,7 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -1026,13 +1026,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="RIGHT">
 <contactref element="DIR-R" pad="2"/>
-<wire x1="31.2" y1="51.2" x2="27" y2="47" width="0.3048" layer="16"/>
-<wire x1="27" y1="47" x2="27" y2="39" width="0.3048" layer="16"/>
-<wire x1="27" y1="39" x2="23" y2="35" width="0.3048" layer="16"/>
-<wire x1="23" y1="35" x2="16" y2="35" width="0.3048" layer="16"/>
-<via x="16" y="35" extent="1-16" drill="0.6"/>
-<wire x1="16" y1="35" x2="16" y2="33.46" width="0.3048" layer="1"/>
-<wire x1="16" y1="33.46" x2="22.54" y2="33.46" width="0.3048" layer="1"/>
 </signal>
 <signal name="START">
 <contactref element="BTN-START" pad="2"/>
@@ -1045,23 +1038,9 @@ design rules under a new name.</description>
 </signal>
 <signal name="B">
 <contactref element="BTN-B" pad="2"/>
-<wire x1="53.2" y1="52.8" x2="55" y2="51" width="0.3048" layer="16"/>
-<wire x1="55" y1="51" x2="60" y2="51" width="0.3048" layer="16"/>
-<wire x1="60" y1="51" x2="60" y2="47" width="0.3048" layer="16"/>
-<wire x1="60" y1="47" x2="58" y2="45" width="0.3048" layer="16"/>
-<wire x1="58" y1="45" x2="58" y2="37" width="0.3048" layer="16"/>
-<wire x1="58" y1="37" x2="56" y2="35" width="0.3048" layer="16"/>
-<wire x1="51.54" y1="30.46" x2="53.46" y2="30.46" width="0.3048" layer="1"/>
-<wire x1="53.46" y1="30.46" x2="54" y2="31" width="0.3048" layer="1"/>
-<wire x1="54" y1="31" x2="54" y2="33" width="0.3048" layer="1"/>
-<wire x1="54" y1="33" x2="56" y2="35" width="0.3048" layer="1"/>
-<via x="56" y="35" extent="1-16" drill="0.6"/>
 </signal>
 <signal name="SPEAKER">
 <contactref element="JP2" pad="2"/>
-<wire x1="62.54" y1="23" x2="62.54" y2="52.8" width="0.3048" layer="16"/>
-<wire x1="53.6" y1="54.4" x2="55.2" y2="52.8" width="0.3048" layer="16"/>
-<wire x1="55.2" y1="52.8" x2="62.54" y2="52.8" width="0.3048" layer="16"/>
 </signal>
 <signal name="GPIO18">
 <contactref element="SV1" pad="10"/>
